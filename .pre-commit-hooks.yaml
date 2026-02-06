@@ -2,6 +2,7 @@
   name: zizmor
   description: "Find security issues in GitHub Actions CI/CD setups"
   language: python
+  language_version: "3.10"
   types: [yaml]
   files: (\.github/(workflows/.*|dependabot.ya?ml))|(action\.ya?ml)$
   require_serial: true
